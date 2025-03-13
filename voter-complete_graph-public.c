@@ -3,7 +3,7 @@
 #include <memory.h>
 #include <math.h>
 #include <time.h>
-#include </home/choi/mt19937-64.c>
+#include </your_directory/mt19937-64.c>
 
 int temp;
 char filename[200];
