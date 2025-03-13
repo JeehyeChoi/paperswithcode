@@ -64,7 +64,7 @@ void PRTdistr(int totn,int*sgn_pool,char *filename2,int prt,int tt) {
 }
 
 int main(int argc, char *argv[]) {  
-	int i,ii,t,ni,k;
+	int i,j,ii,t,ni,k;
 
 	int ln=atof(argv[1]);
 	double la=atof(argv[2]);
@@ -80,8 +80,6 @@ int main(int argc, char *argv[]) {
 	int *sgn; sgn=(int*)malloc((size_t)(totn*sizeof(int))); 
 	int *sgn_pool; sgn_pool=(int*)malloc((size_t)(totn*sizeof(int))); 
 	int *pool; pool=(int*)malloc((size_t)((totn+1)*sizeof(int))); 
-
-	int j;
 	int *result; result=(int*)malloc((size_t)(2*sizeof(int))); 
 	sprintf(filename,"./Com2/n2^%d-Nalpha2^%g-public",ln,la);
 
